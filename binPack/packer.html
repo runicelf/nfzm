@@ -14,6 +14,7 @@
         
         <script src="packer.js" language="javascript"></script>
         <script type="text/javascript">
+            var mosaic = document.getElementById('mosaic');
             var tags = mosaic.getElementsByTagName('div');
             /*
             var coords,
@@ -25,16 +26,19 @@
               div.style.top = coords.y;
             }
              */
-        
+            
             var blocks = [],
-            width = 1000,
-            height = 500,
-            packer = new Packer( width, height );// либо GrowingPacker();
+                width = 1000,
+                height = 500,
+                packer = new Packer( width, height );// либо GrowingPacker();
+           
+            
             for(var i in tags){
               var div = tags[i];
               if(div.style)blocks[blocks.length]={w:parseInt(div.style.width),h:parseInt(div.style.height)};
             }
             blocks.sort(function(a,b) { return (b.w > a.w); }); // сортируем прямоугольники для улучшения результата
+            
             packer.fit(blocks);
             for(var i in tags){
               var div = tags[i];
