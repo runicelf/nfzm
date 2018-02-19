@@ -35,15 +35,20 @@
             
             for(let i in tags){
               let div = tags[i];
-              if(div.style)blocks[blocks.length]={w:parseInt(div.style.width),h:parseInt(div.style.height)};
+              if(div.style) {
+                  blocks[blocks.length] = {w : parseInt(div.style.width), h : parseInt(div.style.height)};
+              }
             }
             blocks.sort(function(a,b) { return (b.w > a.w); }); // сортируем прямоугольники для улучшения результата
+            
+            console.log(blocks);
             
             packer.fit(blocks);
             
             for(let i in tags){
               let div = tags[i];
               let block = blocks[i];
+              
               console.log(block);
               
               if(div.style && block.fit){
