@@ -14,35 +14,38 @@
         
         <script src="packer.js" language="javascript"></script>
         <script type="text/javascript">
-            var mosaic = document.getElementById('mosaic');
-            var tags = mosaic.getElementsByTagName('div');
+            let mosaic = document.getElementById('mosaic');
+            let tags = mosaic.getElementsByTagName('div');
             /*
-            var coords,
+            let coords,
                 packer = new NETXUS.RectanglePacker( 200, 200 );
-            for(var i in tags){
-              var div = tags[i];
+            for(let i in tags){
+              let div = tags[i];
               coords=packer.findCoords( parseInt(div.style.width), parseInt(div.style.height) );
               div.style.left = coords.x;
               div.style.top = coords.y;
             }
              */
             
-            var blocks = [],
+            let blocks = [],
                 width = 1000,
                 height = 500,
                 packer = new Packer( width, height );// либо GrowingPacker();
            
             
-            for(var i in tags){
-              var div = tags[i];
+            for(let i in tags){
+              let div = tags[i];
               if(div.style)blocks[blocks.length]={w:parseInt(div.style.width),h:parseInt(div.style.height)};
             }
             blocks.sort(function(a,b) { return (b.w > a.w); }); // сортируем прямоугольники для улучшения результата
             
             packer.fit(blocks);
-            for(var i in tags){
-              var div = tags[i];
-              var block = blocks[i];
+            
+            for(let i in tags){
+              let div = tags[i];
+              let block = blocks[i];
+              console.log(block.fit.x);
+              console.log(block.fit.y);
               if(div.style && block.fit){
                 div.style.left = block.fit.x;
                 div.style.top = block.fit.y;
