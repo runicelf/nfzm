@@ -288,7 +288,6 @@ body {
 }
 .our-services_header{
   display: block;
-  color: #333A3E;
   text-align: center;
   font-size: 45px;
   text-transform: uppercase;
@@ -347,4 +346,37 @@ body {
   font-size: 16px;
   font-weight: 1000;
   text-align: center;
+}
+.our-partners_header{
+  display: block;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.our-partners{
+  padding: 50px 0 0 0;
+}
+.our-partners_wrapper{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 0;
+}
+.our-partners_partner-logo{
+  width: 150px;
+  height: 75px;
+  background-color: #000;
+}
+.footer{
+  background-color: #777777;
+  
+  padding: 50px 0;
+}
+.footer_wrapper{
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
