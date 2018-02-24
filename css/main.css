@@ -186,18 +186,17 @@ body {
 }
 .slider-nav_img i{
   font-size: 60px;
-
 }
-.slider-nav_elem1:hover,.slider-nav_elem1.slider-nav_elem__active{
+.slider-nav_elem1.slider-nav_elem1:hover,.slider-nav_elem1.slider-nav_elem__active{
   color: #665A98;
 }
-.slider-nav_elem2:hover,.slider-nav_elem2.slider-nav_elem__active{
+.slider-nav_elem2.slider-nav_elem2:hover,.slider-nav_elem2.slider-nav_elem__active{
   color: #A94D81;
 }
-.slider-nav_elem3:hover,.slider-nav_elem3.slider-nav_elem__active{
+.slider-nav_elem3.slider-nav_elem3:hover,.slider-nav_elem3.slider-nav_elem__active{
   color: #7DB547;
 }
-.slider-nav_elem:hover, .slider-nav_elem4.slider-nav_elem__active{
+.slider-nav_elem4.slider-nav_elem:hover, .slider-nav_elem4.slider-nav_elem__active{
   color: #C4B536;
 }
 .slider2_header{
