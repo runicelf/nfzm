@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 body {
   font-family: Calibri, Arial, sans-serif;
+  color: #333A3E;
 }
-
 .header {
   padding: 0 20px;
   margin-bottom: -200px;
@@ -9,14 +10,33 @@ body {
   position: relative;
   border-bottom: 1px solid #fff;
 }
-
+.header_logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  margin-top: -15px;
+}
+.header_logo_img{
+  background-image: url("../images/nfzm.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 65px;
+  filter: invert(100%);
+  margin: 0 auto;
+}
+.header_logo_text{
+  font-size: 25px;
+  font-family: 'Russo One', sans-serif;
+}
 .header_center {
   max-width: 1300px;
   margin:0 auto;
   display: flex;
   justify-content: space-between;
   color: #FFF;
-  padding: 30px 0;
+  padding: 30px 0 10px 0;
   z-index: 100;
 }
 .header_logo{
@@ -138,6 +158,7 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
+  padding: 20px 0 20px 0;
 }
 .slider-nav_elem{
   width: auto;
@@ -184,8 +205,9 @@ body {
 }
 .slider2_header_h{
   text-align: center;
-  font-size: 40px;
   color: #fff;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 .slider2-wrapper{
   background: radial-gradient(circle, #008BDF, #005FAC);
@@ -208,7 +230,7 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 1300px;
-  margin: auto;
+  margin: 0 auto;
   padding: 0 50px;
 }
 .slider2_arrow-left{
@@ -240,8 +262,9 @@ body {
   display: block;
   padding: 10px 0 10px 0;
   text-align: center;
-  font-size: 40px;
-  color: #fff;
+  color: #333A3E;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 .news-block{
   display: flex;
@@ -251,11 +274,77 @@ body {
 .news-block_elem{
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 40%;
   padding: 10px;
   color: #fff;
 }
 .news-block_elem_photo{
   height: 160px;
   background-color: white;
+}
+.our-services{
+  background-color: #C6F6FF;
+  padding: 30px 0 100px 0;
+}
+.our-services_header{
+  display: block;
+  color: #333A3E;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.our-services_block{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.our-services_service{
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  padding: 10px;
+  box-shadow: -5px 5px 30px rgba(0, 0, 0, .4);
+  cursor: pointer;
+  margin: 10px;
+}
+.our-services_service_img{
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  margin: auto 0;
+}
+.our-services_service_description{
+  font-size: 20px;
+  color: #333A3E;
+  padding: 20px;
+}
+.our-advantages{
+  padding: 50px 0;
+}
+.our-advantages_wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1300px;
+  margin: auto;
+}
+.our-advantages_block{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 50px;
+}
+.our-advantages_block_img{
+  width: 80px;
+  height: 80px;
+  background-image: url(../images/icon-detail.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto 20px auto;
+}
+.our-advantages_block_description{
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 1000;
+  text-align: center;
 }
