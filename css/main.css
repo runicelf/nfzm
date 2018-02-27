@@ -272,6 +272,7 @@ body {
   justify-content: space-around;
   padding-bottom: 50px;
   max-width: 1300px;
+  margin: 0 auto;
 }
 .news-block_show-all {
   cursor: pointer;
