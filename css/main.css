@@ -209,14 +209,15 @@ body {
   text-transform: uppercase;
 }
 .slider2-wrapper{
-  background: radial-gradient(circle, #008BDF, #005FAC);
+  background: radial-gradient(circle, #0093E8, #005FAC);
 }
 .slider2_elem{
-  margin: 0 80px 0 80px;
+  margin: 0 80px;
   padding: 10px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  height: 320px;
 }
 .slider2_img{
   height: 250px;

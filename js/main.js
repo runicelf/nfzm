@@ -16,7 +16,7 @@ $(document).ready(function(){
        autoplay:true,
        autoplaySpeed:5000,
        pauseOnHover:true,
-       slidesToShow: 3,
+       slidesToShow: 4,
        prevArrow:$('.slider2_arrow-left'),
        nextArrow:$('.slider2_arrow-right')
      });
