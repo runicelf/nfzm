@@ -289,6 +289,7 @@ body {
   width: 40%;
   padding: 10px;
   color: #fff;
+  max-width: 1300px;
 }
 .news-block_elem_photo{
   height: 160px;
@@ -309,6 +310,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1300px;
+  margin: 0 auto;
 }
 .our-services_service{
   width: 300px;
