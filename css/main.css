@@ -271,6 +271,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 50px;
+  max-width: 1300px;
 }
 .news-block_show-all {
   cursor: pointer;
@@ -289,7 +290,6 @@ body {
   width: 40%;
   padding: 10px;
   color: #fff;
-  max-width: 1300px;
 }
 .news-block_elem_photo{
   height: 160px;
