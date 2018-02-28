@@ -318,13 +318,14 @@ body {
   margin: 0 auto;
 }
 .our-services_service{
-  width: 300px;
+  width: 20%;
   border-radius: 5px;
   display: flex;
   padding: 20px;
   box-shadow: -5px 5px 30px rgba(0, 0, 0, .4);
   cursor: pointer;
-  margin: 10px;
+  min-width: 300px;
+  margin: 15px 10px;
 }
 .our-services_service_img{
   width: 50%;
@@ -345,12 +346,12 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 1300px;
-  margin: auto;
+  margin: 0 auto;
 }
 .our-advantages_block{
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 20%;
   padding: 50px;
 }
 .our-advantages_block_img{
