@@ -383,8 +383,9 @@ body {
 .our-partners_partner-logo{
   width: 150px;
   height: 75px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .our-partners_partner-logo_1{
   background-image: url("../images/antyapi.png");
@@ -397,6 +398,7 @@ body {
 }
 .our-partners_partner-logo_4{
   background-image: url("../images/su155.png");
+  background-size: 120px 95px;
 }
 .undo-footer{
   background-color: #777;
