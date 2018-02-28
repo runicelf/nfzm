@@ -275,6 +275,8 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 50px;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 .news-block_show-all {
   cursor: pointer;
@@ -313,6 +315,7 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: 1300px;
+  margin: 0 auto;
 }
 .our-services_service{
   width: 300px;
