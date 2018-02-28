@@ -383,9 +383,20 @@ body {
 .our-partners_partner-logo{
   width: 150px;
   height: 75px;
-  background-image: url("../images/su155.png");
   background-size: cover;
   background-position: center;
+}
+.our-partners_partner-logo_1{
+  background-image: url("../images/antyapi.png");
+}
+.our-partners_partner-logo_2{
+  background-image: url("../images/transtrft.png");
+}
+.our-partners_partner-logo_3{
+  background-image: url("../images/rosseti.png");
+}
+.our-partners_partner-logo_4{
+  background-image: url("../images/su155.png");
 }
 .undo-footer{
   background-color: #777;
