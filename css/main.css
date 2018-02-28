@@ -135,7 +135,7 @@ body {
   height: 0;
   margin: 30px 0;
   border: 30px solid;
-  border-color: transparent gold transparent steelblue;
+  border-color: transparent #fff transparent #fff;
   border-left: 0;
   cursor: pointer;
   z-index: 100;
@@ -145,7 +145,7 @@ body {
   height: 0;
   margin: 30px 0;
   border: 30px solid;
-  border-color: transparent gold transparent steelblue;
+  border-color: transparent #fff transparent #fff;
   border-right: 0;
   cursor: pointer;
   z-index: 100;
@@ -215,11 +215,12 @@ body {
   background: radial-gradient(circle, #008BDF, #005FAC);
 }
 .slider2_elem{
-  margin: 0 80px 0 80px;
+  margin: 0 10%;
   padding: 10px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
+  height: 300px;
 }
 .slider2_img{
   height: 250px;
