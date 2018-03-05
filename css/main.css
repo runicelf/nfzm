@@ -70,6 +70,21 @@ body {
 .slider {
   z-index: 0;
 }
+.slider_right_img{
+  
+}
+.slider_right_img1{
+  
+}
+.slider_right_img2{
+  
+}
+.slider_right_img3{
+  
+}
+.slider_right_img4{
+  
+}
 .slider_slide_inside{
   padding: 200px 20px 0px 20px;
   display: flex;
@@ -218,13 +233,37 @@ body {
 .slider2_elem{
   margin: 0 10%;
   padding: 10px;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   height: 300px;
+  background-color: #fff;
 }
 .slider2_img{
   height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.slider2_slide1_img{
+  background-image: url("../images/armkarkas.png");
+}
+.slider2_slide2_img{
+  background-image: url("../images/armkarkas.png");
+}
+.slider2_slide3_img{
+  background-image: url("../images/armkarkas.png");
+}
+.slider2_slide4_img{
+  background-image: url("../images/armkarkas.png");
+}
+.slider2_slide5_img{
+  background-image: url("../images/armkarkas.png");
+}
+.slider2_slide6_img{
+  background-image: url("../images/iman/b80.png");
+}
+.slider2_slide7_img{
+  background-image: url("../images/armkarkas.png");
 }
 .slider2_desc{
   text-align: center;
