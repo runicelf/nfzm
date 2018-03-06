@@ -257,13 +257,21 @@ body {
   background-image: url("../images/iman/trav.png");
 }
 .slider2_slide5_img{
-  background-image: url("../images/armkarkas.png");
+  background-image: url("../images/iman/ograg.png");
 }
 .slider2_slide6_img{
   background-image: url("../images/iman/b80.png");
 }
 .slider2_slide7_img{
   background-image: url("../images/armkarkas.png");
+}
+.slider2_slide8_img{
+  background-image: url("../images/iman/lesmar.png");
+  
+}
+.slider2_slide9_img{
+  background-image: url("../images/iman/talrep.png");
+  
 }
 .slider2_desc{
   text-align: center;
