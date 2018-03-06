@@ -266,11 +266,15 @@ body {
   background-image: url("../images/armkarkas.png");
 }
 .slider2_slide8_img{
-  background-image: url("../images/iman/lesmar.png");
+  background-image: url("../images/iman/lesmar.jpeg");
   
 }
 .slider2_slide9_img{
   background-image: url("../images/iman/talrep.png");
+  
+}
+.slider2_slide10_img{
+  background-image: url("../images/iman/ramki.png");
   
 }
 .slider2_desc{
