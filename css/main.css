@@ -71,19 +71,23 @@ body {
   z-index: 0;
 }
 .slider_right_img{
-  
+  width: 600px;
+  height: 600px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .slider_right_img1{
-  
+  background-image: url("../images/green.png");
 }
 .slider_right_img2{
-  
+  background-image: url("../images/welderstart.png");
 }
 .slider_right_img3{
-  
+  background-image: url("../images/welderstart.png");
 }
 .slider_right_img4{
-  
+  background-image: url("../images/welderstart.png");
 }
 .slider_slide_inside{
   padding: 200px 20px 0px 20px;
