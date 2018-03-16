@@ -3,12 +3,16 @@ body {
   font-family: Calibri, Arial, sans-serif;
   color: #333A3E;
 }
-.header {
+.header{
   padding: 0 20px;
   margin-bottom: -200px;
   z-index: 100;
   position: relative;
   border-bottom: 1px solid #fff;
+}
+.header__without-slider{
+  padding: 0 20px;
+  background-color: #7BB346;
 }
 .header_logo{
   display: flex;
@@ -249,13 +253,13 @@ body {
   background-size: cover;
 }
 .slider2_slide1_img{
-  background-image: url("../images/lap.png");
+  background-image: url("../images/iman/lap.png");
 }
 .slider2_slide2_img{
   background-image: url("../images/iman/ferma.png");
 }
 .slider2_slide3_img{
-  background-image: url("../images/forma.png");
+  background-image: url("../images/iman/forma.png");
 }
 .slider2_slide4_img{
   background-image: url("../images/iman/trav.png");
@@ -542,4 +546,31 @@ body {
   filter: invert(100%);
   background-size: cover;
   background-position: center;
+}
+
+/*product-page*/
+.product-page-wrapper{
+  background-color: #FAFAFA;
+  padding: 50px;
+}
+.product-page{
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.product-page_h{
+  font-size: 40px;
+  max-width: 600px;
+  margin: 0 0 10px 0;
+}
+.product-page_image-wrapper{
+  margin-right: 30px;
+  max-width: 500px;
+}
+.product-page_image{
+   width: 100%;
+}
+.product-page_description{
+  max-width: 600px;
 }
