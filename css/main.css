@@ -19,10 +19,6 @@ body {
   background-color: var(--main-bg-color);
  /* background-color: var(--main-bg-color);*/
 }
-.header__without-slider{
-  padding: 0 20px;
-  background-color: #7BB346;
-}
 .header_logo{
   display: flex;
   flex-direction: column;
