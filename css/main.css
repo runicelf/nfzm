@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
+:root {
+  --main-bg-color: #141318;
+  --main-sub-color: #085CA2;
+  --main-grey-color: #fff;
+  --block-color: #999;
+}
 body {
   font-family: Calibri, Arial, sans-serif;
   color: #333A3E;
+  background-color: #fff;
+  box-sizing: border-box;
 }
 .header{
   padding: 0 20px;
-  margin-bottom: -200px;
   z-index: 100;
   position: relative;
   border-bottom: 1px solid #fff;
+  background-color: var(--main-bg-color);
+ /* background-color: var(--main-bg-color);*/
 }
 .header__without-slider{
   padding: 0 20px;
@@ -33,6 +42,10 @@ body {
 .header_logo_text{
   font-size: 25px;
   font-family: 'Russo One', sans-serif;
+}
+.header_logo_a{
+  color: #fff;
+  text-decoration: none;
 }
 .header_center {
   max-width: 1300px;
@@ -61,40 +74,43 @@ body {
   z-index: 100;
 }
 .header_center_right_bottom {
-  font-size: 34px;
-  letter-spacing: 2px;
   z-index: 100;
+  display: flex;
+  letter-spacing: 2px;
+}
+.header_center_phone{
+  font-size: 18px;
+  margin: 0 20px 0 10px;
+}
+.header_center_mail{
+  font-size: 20px;
+  margin-top: -2px;
 }
 .header_nav_link{
   color: #FFF;
   font-weight: bold;
   padding: 10px;
   z-index: 100;
+  transition: 0.2s;
 }
-.slider {
-  z-index: 0;
+.header_nav_link:hover{
+  color: var(--main-sub-color);
+  transition: 0.2s;
 }
-.slider_right_img{
-  width: 600px;
-  height: 600px;
-  background-size: contain;
-  background-position: center;
+.slider-wrapper{
+  background-color: var(--main-bg-color);
+}
+.slider:before {
+  position: absolute;
+  content: '';
+  top: 0; right: 0; bottom: 0; left: 0;
+  background-image: url("../images/promo.jpg");
   background-repeat: no-repeat;
-}
-.slider_right_img1{
-  background-image: url("../images/green.png");
-}
-.slider_right_img2{
-  background-image: url("../images/welderstart.png");
-}
-.slider_right_img3{
-  background-image: url("../images/welderstart.png");
-}
-.slider_right_img4{
-  background-image: url("../images/welderstart.png");
+  background-size: cover;
+  filter: opacity(30%) grayscale(30%) contrast(200%);
 }
 .slider_slide_inside{
-  padding: 200px 20px 0px 20px;
+  padding: 90px 20px 60px 20px;
   display: flex;
   justify-content: space-between;
   max-width: 1300px;
@@ -125,27 +141,17 @@ body {
 .slider_table_link{
   color: #fff;
   font-size: 16px;
+  transition: 0.2s;
+}
+.slider_table_link:hover{
+  color: var(--main-sub-color);
+  transition: 0.2s;
 }
 .slide_inside_description {
   max-width: 500px;
   font-size: 17px;
   display: block;
   margin-bottom: 20px;
-}
-.slider_slide1{
-  background: linear-gradient(180deg, #665A98, #4A3E7B);
-}
-.slider_slide2{
-  background: linear-gradient(180deg, #A94D81, #983A6F);
-}
-.slider_slide3{
-  background: linear-gradient(180deg, #7DB547, #75AB42);
-}
-.slider_slide4{
-  background: linear-gradient(180deg, #C4B536, #B5A627);
-}
-.slider_slide5{
-  background: linear-gradient(180deg, #43A795, #3B8F7F);
 }
 .arrows{
   display: flex;
@@ -163,6 +169,11 @@ body {
   border-left: 0;
   cursor: pointer;
   z-index: 100;
+  transition: 0.2s;
+}
+.arrow-left:hover{
+  border-color: transparent var(--main-sub-color) transparent var(--main-sub-color);
+  transition: 0.2s;
 }
 .arrow-right{
   width: 0;
@@ -173,6 +184,11 @@ body {
   border-right: 0;
   cursor: pointer;
   z-index: 100;
+  transition: 0.2s;
+}
+.arrow-right:hover{
+  border-color: transparent var(--main-sub-color) transparent var(--main-sub-color);
+  transition: 0.2s;
 }
 .slider_dots{
   list-style: none;
@@ -195,7 +211,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   cursor: pointer;
-  color: #999;
+  color: var(--block-color);
 }
 .slider-nav_text{
   text-transform: uppercase;
@@ -215,16 +231,20 @@ body {
   font-size: 60px;
 }
 .slider-nav_elem1.slider-nav_elem1:hover,.slider-nav_elem1.slider-nav_elem__active{
-  color: #665A98;
+  color: var(--main-sub-color);
+  transition: .2s;
 }
 .slider-nav_elem2.slider-nav_elem2:hover,.slider-nav_elem2.slider-nav_elem__active{
-  color: #A94D81;
+  color: var(--main-sub-color);
+  transition: .2s;
 }
 .slider-nav_elem3.slider-nav_elem3:hover,.slider-nav_elem3.slider-nav_elem__active{
-  color: #7DB547;
+  color: var(--main-sub-color);
+  transition: .2s;
 }
 .slider-nav_elem4.slider-nav_elem:hover, .slider-nav_elem4.slider-nav_elem__active{
-  color: #C4B536;
+  color: var(--main-sub-color);
+  transition: .2s;
 }
 .slider2_header{
   padding: 10px 0 10px 0;
@@ -235,19 +255,20 @@ body {
   font-size: 45px;
   text-transform: uppercase;
 }
+.slider2_slide_a{
+  text-decoration: none;
+  color: #fff;
+}
 .slider2-wrapper{
-  background: radial-gradient(circle, #008BDF, #005FAC);
+  background-color: var(--block-color);
+  /*background-image: url("../images/metall.jpg");*/
 }
 .slider2_elem{
   margin: 0 10%;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
   height: 300px;
-  background-color: #fff;
 }
 .slider2_img{
-  height: 250px;
+  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -287,7 +308,12 @@ body {
 }
 .slider2_desc{
   text-align: center;
-  padding: 10px;
+  height: 70px;
+  margin-top: -70px;
+  color: #fff;
+  background-color: rgba(20, 19, 24, .7);
+  font-size: 18px;
+  padding: 20px;
 }
 .slider2_arrows{
   display: flex;
@@ -301,7 +327,7 @@ body {
   height: 0;
   margin: 30px 0;
   border: 30px solid;
-  border-color: transparent gold transparent steelblue;
+  border-color: transparent #4682B4 transparent #4682B4;
   border-left: 0;
   cursor: pointer;
   z-index: 100;
@@ -311,13 +337,14 @@ body {
   height: 0;
   margin: 30px 0;
   border: 30px solid;
-  border-color: transparent gold transparent steelblue;
+  border-color: transparent #4682B4 transparent #4682B4;
   border-right: 0;
   cursor: pointer;
   z-index: 100;
 }
 .news-block-wrapper{
-  background: radial-gradient(circle, #4FD2C3, #199C8E);
+  /*background: linear-gradient(135deg, var(--main-bg-color), #090909);*/
+  background-color: var(--block-color);
   display: flex;
   flex-direction: column;
   padding-bottom: 50px;
@@ -326,7 +353,7 @@ body {
   display: block;
   padding: 10px 0 10px 0;
   text-align: center;
-  color: #333A3E;
+  color: var(--main-grey-color);
   font-size: 45px;
   text-transform: uppercase;
 }
@@ -342,26 +369,32 @@ body {
   cursor: pointer;
   margin: auto;
   padding: 10px 50px;
-  color: #fff;
+  color: var(--main-grey-color);
   text-align: center;
-  border: 3px solid #fff;
+  border: 3px solid var(--main-grey-color);
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
+  transition: .2s;
+}
+.news-block_show-all:hover{
+  color: #fff;
+  border-color: #fff;
+  transition: .2s;
 }
 .news-block_elem{
   display: flex;
   flex-direction: column;
   width: 40%;
   padding: 10px;
-  color: #fff;
+  color: var(--main-grey-color);
 }
 .news-block_elem_photo{
   height: 160px;
   background-color: white;
 }
 .our-services{
-  background-color: #C6F6FF;
+  background-color: #085CA2;
   padding: 30px 0 100px 0;
 }
 .our-services_header{
@@ -369,6 +402,7 @@ body {
   text-align: center;
   font-size: 45px;
   text-transform: uppercase;
+  color: #fff;
 }
 .our-services_block{
   display: flex;
@@ -400,6 +434,7 @@ body {
 }
 .our-advantages{
   padding: 50px 0;
+  background-color: #fff;
 }
 .our-advantages_wrapper{
   display: flex;
@@ -417,10 +452,36 @@ body {
 .our-advantages_block_img{
   width: 80px;
   height: 80px;
-  background-image: url(../images/icon-detail.png);
   background-position: center;
   background-size: cover;
   margin: 0 auto 20px auto;
+}
+.our-advantages_block_img_1{
+  background-image: url(../images/icons/019-power-press.png);
+}
+.our-advantages_block_img_2{
+  background-image: url(../images/icons/006-truck.png);
+}
+.our-advantages_block_img_3{
+  background-image: url(../images/icons/026-mechanism.png);
+}
+.our-advantages_block_img_4{
+  background-image: url(../images/icons/037-forklift.png);
+}
+.our-advantages_block_img_5{
+  background-image: url(../images/icons/020-planning.png);
+}
+.our-advantages_block_img_6{
+  background-image: url(../images/icons/005-valve.png);
+}
+.our-advantages_block_img_7{
+  background-image: url(../images/icons/049-container.png);
+}
+.our-advantages_block_img_8{
+  background-image: url(../images/icons/009-storage.png);
+}
+.our-advantages_block_img_9{
+  background-image: url(../images/icons/030-management.png);
 }
 .our-advantages_block_description{
   text-transform: uppercase;
@@ -437,6 +498,7 @@ body {
 }
 .our-partners{
   padding: 50px 0 0 0;
+  background-color: #fff;
 }
 .our-partners_wrapper{
   max-width: 1300px;
@@ -466,7 +528,7 @@ body {
   background-size: 120px 95px;
 }
 .undo-footer{
-  background-color: #777;
+  background-color: var(--main-bg-color);
   color: #fff;
   padding: 30px 0;
 }
@@ -483,10 +545,10 @@ body {
   text-transform: uppercase;
 }
 .footer{
-  background-color: #777;
+  background-color: var(--main-bg-color);
   color: #fff;
   padding: 20px 0;
-  border-top: 1px solid #545454;
+  border-top: 1px solid #033752;
 }
 .footer_left{
   font-size: 13px;
