@@ -9,7 +9,32 @@ const header = '\
             <div class="header_center_right">\
                 <div class="header_center_right_top">\
                     <ul class="header_list">\
-                        <li><a class="header_nav_link" href="#">О нас</a></li>\
+                        <li><a class="header_nav_link" href="../info/aboutus.html">О нас</a></li>\
+                        <li><a class="header_nav_link" href="#">Новости</a></li>\
+                        <li><a class="header_nav_link" href="#">Доставка</a></li>\
+                        <li><a class="header_nav_link" href="#">Гарантии</a></li>\
+                        <li><a class="header_nav_link" href="#">Контакты</a></li>\
+                        <li><a class="header_nav_link" href="#">Вакансии</a></li>\
+                    </ul>\
+                </div>\
+                <div class="header_center_right_bottom">\
+                   <span class="header_center_phone"><i class="fa fa-phone"></i> +7(962)99-989-97</span>\
+                   <span class="header_center_mail"><i class="fa fa-envelope"></i> zakaz@nfzm.ru</span>\
+                </div>\
+            </div>\
+        </div>';
+const headerMainPage = '\
+        <div class="header_center">\
+            <div class="header_logo">\
+              <a class="header_logo_a" href="/">\
+                <div class="header_logo_img"></div>\
+                <div class="header_logo_text">НФЗМ</div>\
+              </a>\
+            </div>\
+            <div class="header_center_right">\
+                <div class="header_center_right_top">\
+                    <ul class="header_list">\
+                        <li><a class="header_nav_link" href="info/aboutus.html">О нас</a></li>\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
                         <li><a class="header_nav_link" href="#">Доставка</a></li>\
                         <li><a class="header_nav_link" href="#">Гарантии</a></li>\
