@@ -13,7 +13,7 @@ const header = '\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
                         <li><a class="header_nav_link" href="#">Доставка</a></li>\
                         <li><a class="header_nav_link" href="#">Гарантии</a></li>\
-                        <li><a class="header_nav_link" href="#">Контакты</a></li>\
+                        <li><a class="header_nav_link" href="../info/contacts.html">Контакты</a></li>\
                         <li><a class="header_nav_link" href="#">Вакансии</a></li>\
                     </ul>\
                 </div>\
@@ -38,7 +38,7 @@ const headerMainPage = '\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
                         <li><a class="header_nav_link" href="#">Доставка</a></li>\
                         <li><a class="header_nav_link" href="#">Гарантии</a></li>\
-                        <li><a class="header_nav_link" href="#">Контакты</a></li>\
+                        <li><a class="header_nav_link" href="info/contacts.html">Контакты</a></li>\
                         <li><a class="header_nav_link" href="#">Вакансии</a></li>\
                     </ul>\
                 </div>\
@@ -61,7 +61,7 @@ const footer = '\
           </div>\
           <div class="footer_right_contacts">\
             <span class="footer_right_contacts_text footer_right_contacts_phone">+7 (962) 99-989-97</span>\
-            <span class="footer_right_contacts_text footer_right_contacts_adress">Наро-Фоминск, ул.Парковая д.3</span>\
+            <span class="footer_right_contacts_text footer_right_contacts_adress">Наро-Фоминск, ул.Московская д.26</span>\
             <span class="footer_right_contacts_text footer_right_contacts_email">zakaz@nfzm.ru</span>\
           </div>\
         </div>\
