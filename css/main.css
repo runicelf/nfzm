@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 :root {
   --main-bg-color: #141318;
-  --main-sub-color: #085CA2;
+  --main-sub-color: #12627D;
   --main-grey-color: #fff;
   --block-color: #999;
 }
@@ -16,8 +16,9 @@ body {
   z-index: 100;
   position: relative;
   border-bottom: 1px solid #fff;
+
   background-color: var(--main-bg-color);
- /* background-color: var(--main-bg-color);*/
+
 }
 .header_logo{
   display: flex;
@@ -80,7 +81,7 @@ body {
 }
 .header_center_mail{
   font-size: 20px;
-  margin-top: -2px;
+  margin-top: -2px
 }
 .header_nav_link{
   color: #FFF;
@@ -99,11 +100,11 @@ body {
 .slider:before {
   position: absolute;
   content: '';
-  top: 0; right: 0; bottom: 0; left: 0;
-  background-image: url("../images/promo.jpg");
+  top: -200px; right: 0; bottom: 0; left: 0;
+  background-image: url("../images/kar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  filter: opacity(30%) grayscale(30%) contrast(200%);
+  /*filter: opacity(30%) grayscale(30%) contrast(200%);*/
 }
 .slider_slide_inside{
   padding: 90px 20px 60px 20px;
@@ -247,7 +248,7 @@ body {
 }
 .slider2_header_h{
   text-align: center;
-  color: #fff;
+  color: var(--main-bg-color);
   font-size: 45px;
   text-transform: uppercase;
 }
@@ -256,8 +257,10 @@ body {
   color: #fff;
 }
 .slider2-wrapper{
-  background-color: var(--block-color);
-  /*background-image: url("../images/metall.jpg");*/
+  /*background-color: var(--block-color);*/
+  background-image: url("../images/down.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .slider2_elem{
   margin: 0 10%;
@@ -349,7 +352,7 @@ body {
   display: block;
   padding: 10px 0 10px 0;
   text-align: center;
-  color: var(--main-grey-color);
+  color: #ff8c00;
   font-size: 45px;
   text-transform: uppercase;
 }
@@ -390,7 +393,7 @@ body {
   background-color: white;
 }
 .our-services{
-  background-color: #085CA2;
+  background-color: #fff;
   padding: 30px 0 100px 0;
 }
 .our-services_header{
@@ -398,7 +401,7 @@ body {
   text-align: center;
   font-size: 45px;
   text-transform: uppercase;
-  color: #fff;
+  color: #ff8c00;
 }
 .our-services_block{
   display: flex;
@@ -610,6 +613,8 @@ body {
 .product-page-wrapper{
   background-color: #FAFAFA;
   padding: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .product-page{
   max-width: 1000px;
@@ -631,4 +636,36 @@ body {
 }
 .product-page_description{
   max-width: 600px;
+}
+.product-navigation{
+  max-width: 170px;
+  margin-right: 15px;
+}
+.product-navigation_list{
+  padding: 10px;
+  background-color: #F9F9F9;
+  border: 1px solid rgba(153, 153, 153, .3);
+}
+.product-navigation_h{
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #F9AC5B;
+  padding: 10px;
+}
+.product-navigation_elem{
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+.product-navigation_elem:first-letter{
+  text-transform:uppercase;
+}
+.product-navigation_elem a{
+  color: #000;
+  transition: .1s;
+}
+.product-navigation_elem a:hover{
+  color: #F9AC5B;
+  transition: .1s;
 }

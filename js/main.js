@@ -4,7 +4,8 @@ $(document).ready(function(){
        autoplaySpeed:5000,
        pauseOnHover:true,
        prevArrow:$('.arrow-left'),
-       nextArrow:$('.arrow-right')
+       nextArrow:$('.arrow-right'),
+       initialSlide:1
      });
 
      $('.slider').on('afterChange', (event, slick, currentSlide) => {
