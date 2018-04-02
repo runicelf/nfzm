@@ -37,7 +37,7 @@ const headerMainPage = '\
                         <li><a class="header_nav_link" href="info/aboutus.html">О нас</a></li>\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
                         <li><a class="header_nav_link" href="#">Доставка</a></li>\
-                        <li><a class="header_nav_link" href="#">Гарантии</a></li>\
+                        <li><a class="header_nav_link" href="#">Галерея</a></li>\
                         <li><a class="header_nav_link" href="info/contacts.html">Контакты</a></li>\
                         <li><a class="header_nav_link" href="#">Вакансии</a></li>\
                     </ul>\
