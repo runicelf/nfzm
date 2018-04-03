@@ -61,7 +61,7 @@ const footer = '\
           </div>\
           <div class="footer_right_contacts">\
             <span class="footer_right_contacts_text footer_right_contacts_phone">+7 (962) 99-989-97</span>\
-            <span class="footer_right_contacts_text footer_right_contacts_adress">Наро-Фоминск, ул.Московская д.26</span>\
+            <span class="footer_right_contacts_text footer_right_contacts_adress">Московская область, г. Наро-Фоминск, ул.Московская д.26</span>\
             <span class="footer_right_contacts_text footer_right_contacts_email">zakaz@nfzm.ru</span>\
           </div>\
         </div>\
