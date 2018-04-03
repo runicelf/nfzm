@@ -12,7 +12,7 @@
   <lastmod>2018-03-21T12:02:23+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-<url>
+ <!--<url>
   <loc>http://nfzm.ru/products/lap.html</loc>
   <lastmod>2018-03-21T12:02:23+00:00</lastmod>
   <priority>0.80</priority>
@@ -42,11 +42,7 @@
   <lastmod>2018-03-21T12:02:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>http://nfzm.ru/products/carcass.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+
 <url>
   <loc>http://nfzm.ru/products/stairs.html</loc>
   <lastmod>2018-03-21T12:02:23+00:00</lastmod>
@@ -61,9 +57,14 @@
   <loc>http://nfzm.ru/products/frame.html</loc>
   <lastmod>2018-03-21T12:02:23+00:00</lastmod>
   <priority>0.80</priority>
-</url>
+</url> -->
 <url>
   <loc>http://nfzm.ru/products/zaklad.html</loc>
+  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://nfzm.ru/products/carcass.html</loc>
   <lastmod>2018-03-21T12:02:23+00:00</lastmod>
   <priority>0.80</priority>
 </url>
