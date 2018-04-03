@@ -12,16 +12,29 @@ $(document).ready(function(){
        $('.slider-nav').children().removeClass('slider-nav_elem__active');
        $('.slider-nav').children().eq(currentSlide).addClass('slider-nav_elem__active');
      });
+     console.log(window.innerWidth);
+     const sliderInit = (nameClass,slidesToShow) => {
+         $(nameClass).slick({
+           autoplay:true,
+           autoplaySpeed:5000,
+           pauseOnHover:true,
+           slidesToShow: slidesToShow,
+           slidesToScroll: slidesToShow,
+           prevArrow:$('.slider2_arrow-left'),
+           nextArrow:$('.slider2_arrow-right')
+         });
+     };
+    
+        if(window.innerWidth < 400) {
+            sliderInit('.slider2', 1);
+        }else if(window.innerWidth < 700) {
+            sliderInit('.slider2', 2);
+        }else if(window.innerWidth < 1100){
+            sliderInit('.slider2', 3);
+        }else {
+            sliderInit('.slider2', 4);
+        }
      
-     $('.slider2').slick({
-       autoplay:true,
-       autoplaySpeed:5000,
-       pauseOnHover:true,
-       slidesToShow: 4,
-       slidesToScroll: 4,
-       prevArrow:$('.slider2_arrow-left'),
-       nextArrow:$('.slider2_arrow-right')
-     });
 });
 $('.slider-nav_elem1').click(() => $('.slider').slick('slickGoTo', 0));
 $('.slider-nav_elem2').click(() => $('.slider').slick('slickGoTo', 1));
