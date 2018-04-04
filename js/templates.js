@@ -93,7 +93,7 @@ const undoFooter = '\
         </div>\
         <div class="undo-footer_right">\
             <h3 class="undo-footer_right_h">Интересно</h3>\
-            <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
+            <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Реализация производственных остатков</a></span>\
             <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
             <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка очень длинная</a></span>\
             <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
