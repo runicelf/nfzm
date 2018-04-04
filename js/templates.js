@@ -14,7 +14,6 @@ const header = '\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
                         <li><a class="header_nav_link" href="#">Галерея</a></li>\
                         <li><a class="header_nav_link" href="../info/contacts.html">Контакты</a></li>\
-                        <li><a class="header_nav_link" href="#">Производственные остатки</a></li>\
                         <li><a class="header_nav_link" href="#">Вакансии</a></li>\
                     </ul>\
                 </div>\
