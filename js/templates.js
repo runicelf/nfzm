@@ -10,10 +10,11 @@ const header = '\
                 <div class="header_center_right_top">\
                     <ul class="header_list">\
                         <li><a class="header_nav_link" href="../info/aboutus.html">О нас</a></li>\
+                        <li><a class="header_nav_link" href="#">Производство</a></li>\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
-                        <li><a class="header_nav_link" href="#">Доставка</a></li>\
                         <li><a class="header_nav_link" href="#">Галерея</a></li>\
                         <li><a class="header_nav_link" href="../info/contacts.html">Контакты</a></li>\
+                        <li><a class="header_nav_link" href="#">Производственные остатки</a></li>\
                         <li><a class="header_nav_link" href="#">Вакансии</a></li>\
                     </ul>\
                 </div>\
@@ -61,7 +62,7 @@ const footer = '\
           </div>\
           <div class="footer_right_contacts">\
             <span class="footer_right_contacts_text footer_right_contacts_phone">+7 (962) 99-989-97</span>\
-            <span class="footer_right_contacts_text footer_right_contacts_adress">Московская область, г. Наро-Фоминск, ул.Московская д.26</span>\
+            <span class="footer_right_contacts_text footer_right_contacts_adress">Московская область, г. Наро-Фоминск, Кубинское шоссе д.5</span>\
             <span class="footer_right_contacts_text footer_right_contacts_email">zakaz@nfzm.ru</span>\
           </div>\
         </div>\
