@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
-:root {
+:root {/*#141318*/
   --main-bg-color: #141318;
   --main-sub-color: #12627D;
   --main-grey-color: #fff;
@@ -34,12 +34,13 @@ body {
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 65px;
   filter: invert(100%);
   margin: 0 auto;
+  height: 65px;
 }
 .header_logo_text{
   font-size: 25px;
+  letter-spacing: 1px;
   font-family: 'Russo One', sans-serif;
 }
 .header_logo_a{
@@ -260,7 +261,7 @@ body {
 }
 .slider2-wrapper{
   /*background-color: var(--block-color);*/
-  background-image: url("../images/news.jpg");
+  background-image: url("../images/news.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -396,6 +397,18 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+.news-block_elem_descripton{
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.news-block_elem_date{
+  font-size: 12px;
+  color: rgba(0,0,0,.7);
+}
+.news-block_elem_fulldescripton{
+  color: rgba(0,0,0,.8);
+}
 .news-block_elem_photo{
   height: 160px;
   background-image: url("../images/industry.png");
@@ -405,6 +418,7 @@ body {
 .our-services{
   background-color: #fff;
   padding: 30px 0 100px 0;
+  border-bottom: 5px solid #F9AC5B;
 }
 .our-services_header{
   display: block;
@@ -550,7 +564,7 @@ body {
 .undo-footer_right{
   display: flex;
   flex-direction: column;
-  margin-right; 15px
+  margin-right: 15px;
 }
 .undo-footer_right_h{
   font-size: 16px;
@@ -698,6 +712,7 @@ body {
   color: #F9AC5B;
   transition: .1s;
 }
+/*mobile*/
 @media screen and (max-width: 1100px) {
   .our-services_block{
     flex-direction: column;
