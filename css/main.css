@@ -263,6 +263,9 @@ body {
 }
 */
 /*experimental for slider2 /////////////////*/
+.slider2_wrapper{
+  background-color: var(--main-bg-color);
+}
 .slider2_header{
   padding: 10px 0 10px 0;
 }
@@ -280,6 +283,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--main-bg-color);
+  max-width: 1300px;
+  margin: auto;
+  
 }
 .slider2_slide{
   flex-grow: 1;
@@ -444,7 +450,6 @@ body {
 .our-services{
   background-color: #fff;
   padding: 30px 0 100px 0;
-  border-bottom: 5px solid #F9AC5B;
 }
 .our-services_header{
   display: block;
@@ -483,7 +488,7 @@ body {
 }
 .our-advantages{
   padding: 50px 0;
-  background-color: #fff;
+  background-color: #F9AC5B;
 }
 .our-advantages_wrapper{
   display: flex;
