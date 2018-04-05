@@ -100,3 +100,32 @@ const undoFooter = '\
             <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
         </div>\
       </div>';
+const navigation = '\
+    <div class="product-navigation">\
+-          <div class="product-navigation_h">Производство</div>\
+-          <ul class="product-navigation_list">\
+-            <li class="product-navigation_elem"><a href="#">арматурные каркасы</a></li>\
+-            <li class="product-navigation_elem"><a href="#">фермы</a></li>\
+-            <li class="product-navigation_elem"><a href="#">сварная балка</a></li>\
+-            <li class="product-navigation_elem"><a href="#">лестницы</a></li>\
+-            <li class="product-navigation_elem"><a href="#">ограждения</a></li>\
+-            <li class="product-navigation_elem"><a href="#">сваи</a></li>\
+-            <li class="product-navigation_elem"><a href="#">опоры освещения</a></li>\
+-            <li class="product-navigation_elem"><a href="#">кронштейны</a></li>\
+-            <li class="product-navigation_elem"><a href="#">тальрепы</a></li>\
+-            <li class="product-navigation_elem"><a href="#">траверсы</a></li>\
+-            <li class="product-navigation_elem"><a href="#">клиновые</a></li>\
+-            <li class="product-navigation_elem"><a href="#">продукция для жби</a></li>\
+-            <li class="product-navigation_elem"><a href="#">контейнеры, бункеры</a></li>\
+-          </ul>\
+-          <div class="product-navigation_h">Обработка</div>\
+-          <ul class="product-navigation_list">\
+-            <li class="product-navigation_elem"><a href="#">рубка гильотиной</a></li>\
+-            <li class="product-navigation_elem"><a href="#">резка газом</a></li>\
+-            <li class="product-navigation_elem"><a href="#">плазменная резка</a></li>\
+-            <li class="product-navigation_elem"><a href="#">гибка</a></li>\
+-            <li class="product-navigation_elem"><a href="#">окрашивание</a></li>\
+-            <li class="product-navigation_elem"><a href="#">сваи</a></li>\
+-            <li class="product-navigation_elem"><a href="#">пробивка отверстий</a></li>\
+-          </ul>\
+-        </div>';

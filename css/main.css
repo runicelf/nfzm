@@ -263,8 +263,13 @@ body {
 }
 */
 /*experimental for slider2 /////////////////*/
+.slider2-wrapper{
+  padding-bottom: 50px;
+  background-color: #F9AC5B;
+
+}
 .slider2_wrapper{
-  background-color: var(--main-bg-color);
+  /*background-color: var(--main-bg-color);*/
 }
 .slider2_header{
   padding: 10px 0 10px 0;
@@ -488,7 +493,7 @@ body {
 }
 .our-advantages{
   padding: 50px 0;
-  background-color: #F9AC5B;
+  
 }
 .our-advantages_wrapper{
   display: flex;
