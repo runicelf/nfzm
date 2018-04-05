@@ -26,7 +26,7 @@ $(document).ready(function(){
            nextArrow:$('.slider2_arrow-right')
          });
      };
-    
+    /*
         if(window.innerWidth < 400) {
             sliderInit('.slider2', 1);
         }else if(window.innerWidth < 700) {
@@ -36,7 +36,7 @@ $(document).ready(function(){
         }else {
             sliderInit('.slider2', 4);
         }
-     
+     */
 });
 $('.slider-nav_elem1').click(() => $('.slider').slick('slickGoTo', 0));
 $('.slider-nav_elem2').click(() => $('.slider').slick('slickGoTo', 1));
