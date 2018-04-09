@@ -106,6 +106,7 @@ const navigation = '\
           <ul class="product-navigation_list">\
             <li class="product-navigation_elem"><a href="../products/carcass.html">арматурные каркасы</a></li>\
             <li class="product-navigation_elem"><a href="../products/girder.html">фермы</a></li>\
+            <li class="product-navigation_elem"><a href="../products/zaklad.html">закладные детали</a></li>\
             <li class="product-navigation_elem"><a href="#">сварная балка</a></li>\
             <li class="product-navigation_elem"><a href="#">лестницы</a></li>\
             <li class="product-navigation_elem"><a href="#">ограждения</a></li>\
@@ -125,7 +126,6 @@ const navigation = '\
             <li class="product-navigation_elem"><a href="#">плазменная резка</a></li>\
             <li class="product-navigation_elem"><a href="#">гибка</a></li>\
             <li class="product-navigation_elem"><a href="#">окрашивание</a></li>\
-            <li class="product-navigation_elem"><a href="#">сваи</a></li>\
             <li class="product-navigation_elem"><a href="#">пробивка отверстий</a></li>\
           </ul>\
         </div>';
