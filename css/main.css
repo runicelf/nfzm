@@ -850,3 +850,35 @@ body {
     flex-direction: column;
   }
 }
+
+/*gallery*/
+.gallery-wrapper{
+  padding: 50px 0 50px 0;
+}
+.gallery{
+  width: 900px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.gallery-elem{
+  display: flex;
+  margin-bottom: 35px;
+}
+.gallery-elem_description{
+  display: flex;
+  flex-direction: column;
+}
+.gallery-elem_h{
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.gallery-elem_photo{
+  margin-right: 15px;
+}
+.gallery-elem_img{
+  width: 260px;
+  height: 160px;
+}
+
