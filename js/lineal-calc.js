@@ -18,6 +18,8 @@ function linealCalc(workpieceLength = 0, details = [{detailLength : 0, detailBal
     
     let workpieces = 0;
     
+    let balanceSum = 0;
+    
     while(detailsLength != 0) {
         
         
@@ -39,9 +41,10 @@ function linealCalc(workpieceLength = 0, details = [{detailLength : 0, detailBal
         }
         results.push(log);
         workpieces += 1;
+        balanceSum += balance;
     }
     
-    return {workpiecesNeeded : workpieces, logs : results};
+    return {workpiecesNeeded : workpieces, logs : results, balance: balanceSum};
 }
 
 /*console.log(linealCalc(150, [{detailLength: 50,detailBalance: 15},{detailLength: 30,detailBalance: 3},{detailLength: 20,detailBalance: 2}]))*/
