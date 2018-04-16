@@ -1,0 +1,4 @@
+User-agent: Yandex
+Disallow: /products/beam.html
+Disallow: /products/metallform.html
+Disallow: /products/grider.html

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Калькулятор">
+    <title>Калькулятор</title>
+    <link rel="icon" href="../images/favicon.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="../js/templates.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+    <header class="header">
+    </header>
+    <script type="text/javascript">$(".header").append(header);</script>
+    <div class="product-page-wrapper">
+        <div class="product-page">
+            <div class="product-page_right">
+                <script type="text/javascript" src="../js/lineal-calc.js"></script>
+                <div class="calc">
+                    <div class="calc_form">
+                        <div class="calc_workpiece"><span class="calc_text">Длина загатовки</span><input class="calc_workpieceLength" type="text"></div>
+                        <div class="calc_detail-form"><span class="calc_text">Длина отрезка</span><input class="calc_detailLength" type="text"><span class="calc_text">Количество</span><input type="text" class="calc_detailBalance"><button class="calc_button__remove">X</button></button></div>
+                    </div>
+                    <button class="calc_button__add">Добавить ряд</button><button class="calc_button__execute">Рассчитать</button>
+                    <div class="calc_results"></div>
+                </div>
+                <script type="text/javascript">
+                $(".calc_button__remove").on("click", (e) => e.target.parentNode.remove());
+                
+                $(".calc_button__add").on("click", () => {
+                    
+                   $(".calc_detail-form").first().clone().appendTo($(".calc_form"));
+                   $(".calc_button__remove").on("click", (e) => e.target.parentNode.remove());
+                   
+                });
+                
+                $(".calc_button__execute").on("click", () => {
+                    const workpieceLength = $(".calc_workpieceLength").val();
+                    
+                    const forms = $(".calc_form").children(".calc_detail-form");
+                    
+                    const details = [];
+                    
+                    for(let i = 0; i < forms.length; i++) {
+                        
+                        if(!isNaN(parseFloat(forms[i].children[1].value)) && !isNaN(parseFloat(forms[i].children[3].value))) {
+                            details.push({ detailLength : parseFloat(forms[i].children[1].value), detailBalance : parseFloat(forms[i].children[3].value)});
+                        }
+                        
+                    }
+                    
+                    const results = linealCalc(workpieceLength, details);
+                    
+                    const logsStr = results.logs.reduce((acc, current) => acc + '<br>' + current, '');
+                    
+                    $(".calc_results").empty();
+                    
+                    $(".calc_results").append(`Требуется заготовок:${results.workpiecesNeeded} Разбивка по заготовкам: ${logsStr}`);
+                })
+                    
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="undo-footer">
+    </div>
+    <script type="text/javascript">$(".undo-footer").append(undoFooter);</script>
+    <footer class="footer">
+    </footer>
+    <script type="text/javascript">$(".footer").append(footer);</script>
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter48047360 = new Ya.Metrika({ id:48047360, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/48047360" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+  </body>
+</html>

@@ -868,6 +868,7 @@ body {
 .gallery-elem_description{
   display: flex;
   flex-direction: column;
+  max-width: 500px;
 }
 .gallery-elem_h{
   font-weight: bold;
@@ -876,9 +877,11 @@ body {
 }
 .gallery-elem_photo{
   margin-right: 15px;
+  width: 260px;
+  overflow: hidden;
+  
 }
 .gallery-elem_img{
   width: 260px;
-  height: 160px;
 }
 
