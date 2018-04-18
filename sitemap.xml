@@ -8,76 +8,44 @@
 
 
 <url>
-  <loc>http://nfzm.ru/</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <loc>https://nfzm.ru/</loc>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
- <!--<url>
-  <loc>http://nfzm.ru/products/lap.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+<url>
+  <loc>https://nfzm.ru/products/zaklad.html</loc>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nfzm.ru/products/ferm.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <loc>https://nfzm.ru/products/carcass.html</loc>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nfzm.ru/products/metallform.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <loc>https://nfzm.ru/products/girder.html</loc>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nfzm.ru/products/support.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <loc>https://nfzm.ru/products/beams.html</loc>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://nfzm.ru/products/fences.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://nfzm.ru/products/beams.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-<url>
-  <loc>http://nfzm.ru/products/stairs.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://nfzm.ru/products/talrep.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://nfzm.ru/products/frame.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url> -->
-<url>
-  <loc>http://nfzm.ru/products/zaklad.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://nfzm.ru/products/carcass.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <loc>https://nfzm.ru/calc/lineal-calc.html</loc>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://nfzm.ru/info/aboutus.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://nfzm.ru/info/contacts.html</loc>
-  <lastmod>2018-03-21T12:02:23+00:00</lastmod>
+  <lastmod>2018-04-18T16:04:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-
 
 </urlset>
