@@ -479,13 +479,30 @@ body {
   cursor: pointer;
   min-width: 300px;
   margin: 15px 10px;
+  color: #000;
+  text-decoration: none;
+}
+.our-services_service_a{
+  display: block;
+  height: 100%;
 }
 .our-services_service_img{
   width: 50%;
-  height: 150px;
+  height: 130px;
   background-color: #fff;
   margin: auto 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
+/*
+.our-services_service_img_1{
+   background-image: url(../images/rels.png); 
+}
+.our-services_service_img_3{
+   background-image: url(../images/list.png); 
+}
+*/
 .our-services_service_description{
   font-size: 20px;
   padding: 20px;
@@ -885,3 +902,38 @@ body {
   width: 260px;
 }
 
+
+/*calc*/
+.calc_input{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 50px;
+  padding: 3px;
+  text-align: center;
+  margin: 0 10px 0 10px;
+}
+.calc{
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5;
+  padding: 30px;
+  width: 500px;
+  margin: auto;
+}
+.calc_form{
+  padding-bottom: 30px;
+}
+.calc_workpiece{
+  margin-bottom: 20px; 
+}
+.calc_detail-form{
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.calc_button__add{
+  margin-bottom: 30px;
+}
+.calc-page{
+  margin: auto;
+  width: 560px;
+}

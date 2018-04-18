@@ -37,6 +37,7 @@ function linealCalc(workpieceLength = 0, details = [{detailLength : 0, detailBal
                     break;
                 }
             }
+            //log.push(balance);
             
         }
         results.push(log);

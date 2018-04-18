@@ -23,26 +23,43 @@
         <div class="product-page">
             <div class="product-page_right">
                 <script type="text/javascript" src="../js/lineal-calc.js"></script>
+                <div class="calc-page">
+                    <h1>Калькулятор резки и раскроя металла</h1>
+                    <p>Для вашего удобства и оптимизации расходов металлопроката при резке изделий, мы разработали и продолжаем улучшать наш онлайн калькулятор раскроя металла. Расчет онлайн поможет вам сэкономить время на просчет проекта и уменьшить отходы от производства металлоконструкций. Сервис позволяет рассчитать массу металлопроката по ст3сп5, ст09г2с и ст10ХСНД. Итогом вы получаете количество целых хлыстов, необходимое для изготовления изделий, процент и общую массу отходов. Теперь вы точно знаете сколько металла вам нужно затратить на производство!</p>
+                </div>
                 <div class="calc">
                     <div class="calc_form">
-                        <div class="calc_workpiece"><span class="calc_text">Длина загатовки</span><input class="calc_workpieceLength" type="text"></div>
-                        <div class="calc_detail-form"><span class="calc_text">Длина отрезка</span><input class="calc_detailLength" type="text"><span class="calc_text">Количество</span><input type="text" class="calc_detailBalance"><button class="calc_button__remove">X</button></button></div>
+                        <div class="calc_workpiece"><span class="calc_text">Длина загатовки:</span><input class="calc_input calc_workpieceLength" type="text"></div>
+                        <div class="calc_detail-form"><span class="calc_text">Длина отрезка:</span><input class="calc_input calc_detailLength" type="text"><span class="calc_text">Количество:</span><input type="text" class="calc_input calc_detailBalance"><button class="calc_button__remove">X</button></button></div>
                     </div>
                     <button class="calc_button__add">Добавить ряд</button><button class="calc_button__execute">Рассчитать</button>
                     <div class="calc_results"></div>
                 </div>
                 <script type="text/javascript">
-                $(".calc_button__remove").on("click", (e) => e.target.parentNode.remove());
+                $(".calc_button__remove").on("click", (e) => {
+                    e.preventDefault();
+                    e.target.parentNode.remove();
+                });
                 
-                $(".calc_button__add").on("click", () => {
-                    
+                $(".calc_button__add").on("click", (e) => {
+                   e.preventDefault;
                    $(".calc_detail-form").first().clone().appendTo($(".calc_form"));
                    $(".calc_button__remove").on("click", (e) => e.target.parentNode.remove());
                    
                 });
                 
-                $(".calc_button__execute").on("click", () => {
-                    const workpieceLength = $(".calc_workpieceLength").val();
+                $(".calc_button__execute").on("click", (e) => {
+                    
+                    e.preventDefault();
+                    
+                    let workpieceLength = 0;
+                    
+                    if(isNaN(parseFloat($(".calc_workpieceLength").val()))){
+                        console.log("Недопустимое значение в поле длина заготовки");
+                        return;
+                    }else {
+                        workpieceLength = parseFloat($(".calc_workpieceLength").val());
+                    }
                     
                     const forms = $(".calc_form").children(".calc_detail-form");
                     
@@ -58,12 +75,14 @@
                     
                     const results = linealCalc(workpieceLength, details);
                     
+                    console.log(results.logs);
+                    
                     const logsStr = results.logs.reduce((acc, current) => acc + '<br>' + current, '');
                     
                     $(".calc_results").empty();
                     
-                    $(".calc_results").append(`Требуется заготовок:${results.workpiecesNeeded} <br> Остаток: ${results.balance} <br>Разбивка по заготовкам: ${logsStr}`);
-                })
+                    $(".calc_results").append(`Требуется заготовок: ${results.workpiecesNeeded} <br> Остаток: ${results.balance} <br>Разбивка по заготовкам: ${logsStr}`);
+                });
                     
                 </script>
             </div>
