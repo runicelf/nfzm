@@ -8,7 +8,7 @@
 body {
   font-family: Calibri, Arial, sans-serif;
   color: #333A3E;
-  background-color: #fff;
+  background-color: var(--main-bg-color);
   box-sizing: border-box;
   font-size: 1em;
 }
@@ -265,7 +265,7 @@ body {
 /*experimental for slider2 /////////////////*/
 .slider2-wrapper{
   padding-bottom: 50px;
-  background-color: #F9AC5B;
+  background-color: /*#F9AC5B*/#fff;
 
 }
 .slider2_wrapper{
@@ -453,7 +453,7 @@ body {
   background-size: cover;
 }
 .our-services{
-  background-color: #fff;
+  background-color: var(--main-bg-color);
   padding: 30px 0 100px 0;
 }
 .our-services_header{
@@ -481,6 +481,7 @@ body {
   margin: 15px 10px;
   color: #000;
   text-decoration: none;
+  background-color: #fff;
 }
 .our-services_service_a{
   display: block;
@@ -510,6 +511,7 @@ body {
 }
 .our-advantages{
   padding: 50px 0;
+  background-color: #fff;
   
 }
 .our-advantages_wrapper{
