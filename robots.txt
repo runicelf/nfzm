@@ -2,3 +2,10 @@ User-agent: Yandex
 Disallow: /products/beam.html
 Disallow: /products/metallform.html
 Disallow: /products/grider.html
+Disallow: /products/ferm.html
+Disallow: /products/lap.html
+Disallow: /products/fences.html
+Disallow: /products/frame.html
+Disallow: /products/stairs.html
+Disallow: /products/talrep.html
+Disallow: /products/support.html
