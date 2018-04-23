@@ -7,7 +7,7 @@ $(document).ready(function(){
        pauseOnHover:true,
        prevArrow:$('.arrow-left'),
        nextArrow:$('.arrow-right'),
-       initialSlide:1
+       initialSlide:2
      });
 
      $('.slider').on('afterChange', (event, slick, currentSlide) => {
