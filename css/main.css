@@ -877,6 +877,7 @@ body {
 /*gallery*/
 .gallery-wrapper{
   padding: 50px 0 50px 0;
+  background-color: #FAFAFA;
 }
 .gallery{
   width: 900px;
