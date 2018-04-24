@@ -9,6 +9,7 @@ const header = '\
             <div class="header_center_right">\
                 <div class="header_center_right_top">\
                     <ul class="header_list">\
+                        <li><a class="header_nav_link" href="/">Главная</a></li>\
                         <li><a class="header_nav_link" href="../info/aboutus.html">О нас</a></li>\
                         <li><a class="header_nav_link" href="#">Производство</a></li>\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
@@ -36,7 +37,7 @@ const headerMainPage = '\
                     <ul class="header_list">\
                         <li><a class="header_nav_link" href="info/aboutus.html">О нас</a></li>\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
-                        <li><a class="header_nav_link" href="#">Доставка</a></li>\
+                        <li><a class="header_nav_link" href="#">Производство</a></li>\
                         <li><a class="header_nav_link" href="#">Галерея</a></li>\
                         <li><a class="header_nav_link" href="info/contacts.html">Контакты</a></li>\
                         <li><a class="header_nav_link" href="#">Вакансии</a></li>\

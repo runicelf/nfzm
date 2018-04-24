@@ -943,3 +943,19 @@ body {
   margin: auto;
   width: 560px;
 }
+/*navigation*/
+.vacancies-page-wrapper{
+  background-color: #FAFAFA;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.vacancies-page{
+  width: 1000px;
+  margin: 0 auto;
+}
+.vacancies-page_h{
+  font-size: 40px;
+  max-width: 600px;
+  margin: 0 0 10px 0;
+}
