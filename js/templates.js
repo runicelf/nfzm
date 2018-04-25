@@ -15,7 +15,7 @@ const header = '\
                         <li><a class="header_nav_link" href="#">Новости</a></li>\
                         <li><a class="header_nav_link" href="#">Галерея</a></li>\
                         <li><a class="header_nav_link" href="../info/contacts.html">Контакты</a></li>\
-                        <li><a class="header_nav_link" href="#">Вакансии</a></li>\
+                        <li><a class="header_nav_link" href="../info/vacancies.html">Вакансии</a></li>\
                     </ul>\
                 </div>\
                 <div class="header_center_right_bottom">\
