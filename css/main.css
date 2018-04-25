@@ -903,12 +903,26 @@ body {
   margin-right: 15px;
   width: 260px;
   overflow: hidden;
-  
 }
 .gallery-elem_img{
   width: 260px;
 }
-
+.gallery-elem_photo__active{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.9);
+  left: 0;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-elem_photo__active .gallery-elem_img{
+  width: auto;
+  height: 90%;
+}
 
 /*calc*/
 .calc_input{
