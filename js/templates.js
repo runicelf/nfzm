@@ -44,7 +44,7 @@ const headerMainPage = '\
                     </ul>\
                 </div>\
                 <div class="header_center_right_bottom">\
-                   <span class="header_center_phone"><i class="fa fa-phone"></i> +7(962)99-989-97</span>\
+                   <span class="header_center_phone"><i class="fa fa-phone"></i> +7(962)999-89-97</span>\
                    <span class="header_center_mail"><i class="fa fa-envelope"></i> zakaz@nfzm.ru</span>\
                 </div>\
             </div>\
