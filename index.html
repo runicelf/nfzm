@@ -23,10 +23,13 @@
     </script>
   </head>
   <body>
-    </script>
+    <!--</script>-->
     <header class="header">
     </header>
-    <script type="text/javascript">$(".header").append(headerMainPage);</script>
+    <script type="text/javascript">
+      $(".header").append(headerMainPage);
+      $("#header_nav_burger").on("click", () => {$(".header_list").toggleClass("header_list__visible");})
+      </script>
     <!--
     
         <div class="header_center">
@@ -60,7 +63,7 @@
       <div class="slider_slide slider_slide1">
            <div class="slider_slide_inside">
              <div class="slider_left">
-               <h1 class="slide_inside_header">Проектирование</h1>
+               <h1 class="slide_inside_header text-header">Проектирование</h1>
                <span class="slide_inside_description">Наро-Фоминский завод металлоконструкций, металлические конструкции как по чертежам закзакчика, так и самостоятельно разрабатываем проект КМД по техническому заданию заказчика. Заказав КМД, вы получите несколько вариантов технического решения вашего проекта.</span>
                <ul class="slider_table">
                  <li class="slider_table_td">
@@ -214,7 +217,7 @@
     </div>
     <div class="slider2-wrapper">
       <div class="slider2_header">
-        <h2 class="slider2_header_h">Наша продукция</h2>
+        <h2 class="slider2_header_h text-header">Наша продукция</h2>
       </div>
       <div class="slider2">
         <!--
@@ -319,7 +322,7 @@
     </div>
     
     <div class="our-services">
-      <h2 class="our-services_header">Наши сервисы</h2>
+      <h2 class="our-services_header text-header">Наши сервисы</h2>
       <div class="our-services_block">
         <a href="/calc/lineal-calc.html" class="our-services_service">
             <div class="our-services_service_img our-services_service_img_1"></div>
@@ -377,7 +380,7 @@
       </div>
     </div>
     <div class="news-block-wrapper">
-      <h2 class="news-block-wrapper_header"><a name="news"></a>Новости завода</h2>
+      <h2 class="news-block-wrapper_header  text-header"><a name="news"></a>Новости завода</h2>
       <div class="news-block">
         <div class="news-block_elem">
           <div class="news-block_elem_photo news-block_elem_photo1"></div>
@@ -434,7 +437,7 @@
     
     </div>
     <div class="our-partners">
-      <div class="our-partners_header">Наши партнеры</div>
+      <div class="our-partners_header text-header">Наши партнеры</div>
       <div class="our-partners_wrapper">
         <div class="our-partners_partner-logo our-partners_partner-logo_1"></div>
         <div class="our-partners_partner-logo our-partners_partner-logo_2"></div>
