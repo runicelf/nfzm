@@ -98,8 +98,12 @@ body {
   transition: 0.2s;
 }
 .slider-wrapper{
-  background-color: var(--main-bg-color);
+  top: -200px; right: 0; bottom: 0; left: 0;
+  background-image: url("../images/kar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+/*
 .slider:before {
   position: absolute;
   content: '';
@@ -108,7 +112,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   /*filter: opacity(30%) grayscale(30%) contrast(200%);*/
-}
+
 .slider_slide_inside{
   padding: 90px 20px 60px 20px;
   display: flex;
@@ -438,10 +442,12 @@ body {
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
+  margin: 10px 0 5px 0;
 }
 .news-block_elem_date{
   font-size: 12px;
   color: rgba(0,0,0,.7);
+  margin-bottom: 5px;
 }
 .news-block_elem_fulldescripton{
   color: rgba(0,0,0,.8);
@@ -451,6 +457,14 @@ body {
   background-image: url("../images/industry.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.news-block_elem_photo2{
+  background-image: url("../images/news2.jpg");
+  background-position: top;
+}
+.news-block_elem_photo3{
+  background-image: url("../images/news3.jpg");
 }
 .our-services{
   /*background-color: var(--main-bg-color);*/
@@ -973,4 +987,9 @@ body {
   font-size: 40px;
   max-width: 600px;
   margin: 0 0 10px 0;
+}
+.disable-mob-version{
+  color: #fff;
+  padding: 10px;
+  z-index: 200;
 }

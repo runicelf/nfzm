@@ -12,7 +12,7 @@ const header = '\
                         <li><a class="header_nav_link" href="/">Главная</a></li>\
                         <li><a class="header_nav_link" href="../info/aboutus.html">О нас</a></li>\
                         <li><a class="header_nav_link" href="#">Производство</a></li>\
-                        <li><a class="header_nav_link" href="#">Новости</a></li>\
+                        <li><a class="header_nav_link" href="#news">Новости</a></li>\
                         <li><a class="header_nav_link" href="../info/gallery.html">Галерея</a></li>\
                         <li><a class="header_nav_link" href="../info/contacts.html">Контакты</a></li>\
                         <li><a class="header_nav_link" href="../info/vacancies.html">Вакансии</a></li>\
@@ -36,7 +36,7 @@ const headerMainPage = '\
                 <div class="header_center_right_top">\
                     <ul class="header_list">\
                         <li><a class="header_nav_link" href="info/aboutus.html">О нас</a></li>\
-                        <li><a class="header_nav_link" href="#">Новости</a></li>\
+                        <li><a class="header_nav_link" href="#news">Новости</a></li>\
                         <li><a class="header_nav_link" href="#">Производство</a></li>\
                         <li><a class="header_nav_link" href="info/gallery.html">Галерея</a></li>\
                         <li><a class="header_nav_link" href="info/contacts.html">Контакты</a></li>\
@@ -94,11 +94,6 @@ const undoFooter = '\
         <div class="undo-footer_right">\
             <h3 class="undo-footer_right_h">Интересно</h3>\
             <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Реализация производственных остатков</a></span>\
-            <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
-            <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка очень длинная</a></span>\
-            <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
-            <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
-            <span class="undo-footer_right_block"><a class="undo-footer_right_a" href="#">Ссылка</a></span>\
         </div>\
       </div>';
 const navigation = '\
