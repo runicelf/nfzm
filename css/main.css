@@ -751,12 +751,20 @@ body {
   max-width: 600px;
   margin: 0 0 10px 0;
 }
+.product-page_description_photo{
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
 .product-page_image-wrapper{
   margin-right: 30px;
   max-width: 500px;
 }
 .product-page_image{
-   width: 100%;
+  width: 300px;
+  float: right;
+  margin-left: 20px; 
+  margin-bottom: 10px;
 }
 .product-page_description{
   max-width: 600px;
