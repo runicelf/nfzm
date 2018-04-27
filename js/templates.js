@@ -19,7 +19,7 @@ const header = '\
                     </ul>\
                 </div>\
                 <div class="header_center_right_bottom">\
-                   <span class="header_center_phone"><i class="fa fa-phone"></i> +7(962)99-989-97</span>\
+                   <span class="header_center_phone"><i class="fa fa-phone"></i> +7(962)999-89-97</span>\
                    <span class="header_center_mail"><i class="fa fa-envelope"></i> zakaz@nfzm.ru</span>\
                 </div>\
             </div>\
@@ -62,7 +62,7 @@ const footer = '\
             <a href="#" class="footer_right_social_block footer_right_social_block__vk"></a>\
           </div>\
           <div class="footer_right_contacts">\
-            <span class="footer_right_contacts_text footer_right_contacts_phone">+7 (962) 99-989-97</span>\
+            <span class="footer_right_contacts_text footer_right_contacts_phone">+7 (962) 999-89-97</span>\
             <span class="footer_right_contacts_text footer_right_contacts_adress">Московская область, г. Наро-Фоминск, Кубинское шоссе д.5</span>\
             <span class="footer_right_contacts_text footer_right_contacts_email">zakaz@nfzm.ru</span>\
           </div>\
