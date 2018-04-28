@@ -756,10 +756,17 @@ body {
   max-width: 500px;
 }
 .product-page_image{
-   width: 100%;
+  float: right;
+  margin-left: 20px;
+  max-width: 300px;
 }
 .product-page_description{
   max-width: 600px;
+}
+.product-page_description_photo{
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 300px;
 }
 .product-navigation{
   max-width: 170px;
